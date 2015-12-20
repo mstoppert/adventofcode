@@ -6,7 +6,7 @@ def first_star(input):
 
     for char in input:
         if char == "(":
-            level += 1
+           level += 1
         elif char == ")":
             level -=1
         else:
@@ -34,5 +34,3 @@ def second_star(input):
 
 first_star(input)
 second_star(input)
-
-
